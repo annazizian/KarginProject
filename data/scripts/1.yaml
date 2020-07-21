@@ -1,0 +1,55 @@
+name: "Ազգային Ժողով"
+url: "https://www.youtube.com/watch?v=eXVMl1B1rks"
+script:
+    - character: "[Scene]"
+      start_time: "00:00:00.00"
+      end_time: "00:00:04.80"
+      text: "Երևան, Ազգային ժողով"
+    - character: Arshak
+      start_time: "00:00:04.80"
+      end_time: "00:00:07։45"
+      text: "Ձեր ջահելներներն են ԲՈՒՀը վաճառում։"
+    - character: Arshak
+      start_time: "00:00:07.80"
+      end_time: "00:00:010։40"
+      text: "Երևի գիտեք ինչ ․․․"
+    - character: Deputy0
+      start_time: "00:00:10.50"
+      end_time: "00:00:14:00"
+      text: "Արշակ ջան, ասում եմ ինչքան կարելի ա խոսել, խոսել"
+    - character: "[Noise]"
+      start_time: "00:00:15.00"
+      end_time: "00:00:50.00"
+      text: "[Unrecognized text]"
+    - character: Deputy1
+      start_time: "00:00:50.00"
+      end_time: "00:00:50.40"
+      text: "Բարի օր"
+    - character: Deputy1
+      start_time: "00:00:54.00"
+      end_time: "00:00:58.50"
+      text: "Էս քո քունն էլ չի տանու՞մ"
+    - character: Deputy2
+      start_time: "00:01:01.50"
+      end_time: "00:01:04.00"
+      text: "Սադոյանի ձենը ոնց որ բուդիլնիկ ըլնի, արա"
+background:
+    - url: "https://www.youtube.com/watch?v=zSDgjTg5rq0"
+      type: song
+      start_time: "00:00:00.00"
+      end_time: "00:00:54.00"
+    - url: "https://www.youtube.com/watch?v=zSDgjTg5rq0"
+      type: song
+      start_time: "00:01:05.00"
+      end_time: "00:01:09.00"
+characters:
+    - character: Deputy0
+      actor: "[Unkown]"
+    - character: Arshak
+      aka:
+          - Arshak Sadoyan
+      actor: "[Unkown]"
+    - character: Deputy1
+      actor: Hayko
+    - character: Deputy2
+      actor: Mko

@@ -1,0 +1,91 @@
+name: "Ձմերուկ"
+url: "https://www.youtube.com/watch?v=r5A-8LhGSCs"
+script:
+  - character: Gnord
+    start_time: "00:00:13"
+    end_time: "00:00։14"
+    text: "Բարի օր, ապեր։"
+  - character: Vacharogh
+    start_time: "00:00:14"
+    end_time: "00:00։15"
+    text: "Բարի օր, ապեր։"
+  - character: Gnord
+    start_time: "00:00:16"
+    end_time: "00:00։17"
+    text: "Ձմերուկի ունե՞ք։"
+  - character: Vacharogh
+    start_time: "00:00:18"
+    end_time: "00:00։19"
+    text: "Հենա։"
+  - character: Gnord
+    start_time: "00:00:20"
+    end_time: "00:00։31"
+    text: "Արա հա վայ։ Ընգեր ջան։ Ախպեր, ինձի ձմերուկու կեսնա պետք։"
+  - character: Vacharogh
+    start_time: "00:00:31"
+    end_time: "00:00։32"
+    text: "Կեսը չենք ծախում։"
+  - character: Gnord
+    start_time: "00:00:33"
+    end_time: "00:00։34"
+    text: "Խի՞։"
+  - character: Vacharogh
+    start_time: "00:00:35"
+    end_time: "00:00։36"
+    text: "Ըտենց, չենք ծախում։"
+  - character: Gnord
+    start_time: "00:00:37"
+    end_time: "00:00։45"
+    text: "Խի ախպեր ջան, որ մեկը ձեր խանութից գալիսա պանիր առնելու, պտի անպայման մի՞ կիլո առնի։ Չի կարա՞ կիլոյի կեսը առնի։"
+  - character: Vacharogh
+    start_time: "00:00:45"
+    end_time: "00:00։47"
+    text: "Կարա, խի՞ չի կարա։"
+  - character: Gnord
+    start_time: "00:00:47"
+    end_time: "00:00։50"
+    text: "Բա ձմերուկի հետ խի՞ եք ըտենց վարվում որ։"
+  - character: Vacharogh
+    start_time: "00:00:50"
+    end_time: "00:00։53"
+    text: "Դե որտև պանիրը կիլոյովա։"
+  - character: Gnord
+    start_time: "00:00:53"
+    end_time: "00:01։01"
+    text: "Խի ձմերուկը նենց սանտիմետրով ա, հա՞։ Մտածի՝ ինչ պատասխանես, պատասխանի, ես ստեղ եմ։"
+  - character: Vacharogh
+    start_time: "00:01:01"
+    end_time: "00:01։04"
+    text: "Ես գնամ մի հատ տնօրենին հարցնեմ, գամ։"
+  - character: Gnord
+    start_time: "00:01:04"
+    end_time: "00:01։05"
+    text: "Հա, ապեր։"
+  - character: Vacharogh
+    start_time: "00:01:19"
+    end_time: "00:01։21"
+    text: "Պարոն տնօրեն, կարելի՞ ա։"
+  - character: Tnoren
+    start_time: "00:01։22"
+    end_time: "00:01։23"
+    text: "Հա, արի։"
+  - character: Vacharogh
+    start_time: "00:01։26"
+    end_time: "00:01։38"
+    text: "Շեֆ ջան, ստե մի հատ անասունա եկել, էշի մեկը, մի հատ ոչխար, ուռածա, ծակվածա, չեմ ջոկում։ Վերջը՝ մի հատ բոյով,
+          քյառթ անասուն։ Էս տավարը ձմերուկի կեսնա ուզում առնի։"
+  - character: Gnord
+    start_time: "00:01։39"
+    end_time: "00:01։40"
+    text: "Հը՞։"
+  - character: Vacharogh
+    start_time: "00:01։40"
+    end_time: "00:01։46"
+    text: "Էս մեր անուշ ախպերն էլ էն մյուս կեսնա ուզում։"
+characters:
+  - character: Gnord
+    actor: Mko
+  - character: Vacharogh
+    actor: Hayko
+  - character: Tnoren
+    actor: "[Unknown]"

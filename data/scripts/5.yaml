@@ -16,7 +16,7 @@ script:
   - character: Zangogh
     start_time: "00:00:18"
     end_time: "00:00:22"
-    text: "Արա այ, ? քեզ ենք ուզում։ Ասում եմ՝ բարև, այ պոզավոր։"
+    text: "Արա այ, պիծյակ քեզ ենք ուզում։ Ասում եմ՝ բարև, այ պոզավոր։"
   - character: Pozavor
     start_time: "00։00։23"
     end_time: "00։00։23"

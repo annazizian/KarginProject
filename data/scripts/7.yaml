@@ -1,0 +1,145 @@
+name: "Բոժե մոյ"
+url: "https://www.youtube.com/watch?v=5SCafg9ddio"
+script:
+  - character: Grish
+    start_time: "00:00:06"
+    end_time: "00:00։14"
+    text: "Արա, ի՞նչ ըլավ էդ տղեն, խի՞ ա ուշանում, բոժե մոյ, էրեկվանից չենք խմել, էս վիճակը ինձի կազմաքանդումա արդեն։"
+  - character: Hayko
+    start_time: "00:00:14"
+    end_time: "00:00։21"
+    text: "Գրիշ, լավ չեմ, լավ չեմ, դողցնում եմ, մի կես ժամ էլ չխմեմ, կվատընամ, Գրիշ"
+  - character: Grish
+    start_time: "00:00:21"
+    end_time: "00:00։23"
+    text: "Արա հենա, ոնց որ Սքեն գալիս ա"
+  - character: Hayko
+    start_time: "00:00:24"
+    end_time: "00:00։26"
+    text: "Սքե՜, շուտ արի։"
+  - character: Grish
+    start_time: "00:00:26"
+    end_time: "00:00։27"
+    text: "Արի, ախպեր"
+  - character: Sqe
+    start_time: "00:00:31"
+    end_time: "00:00։31"
+    text: "Էղավ։"
+  - character: Hayko
+    start_time: "00:00:32"
+    end_time: "00:00։33"
+    text: "Ինչքա՞ն ես բերել։"
+  - character: "[Scene]"
+    start_time: "00:00:35"
+    end_time: "00:00։37"
+    text: "Սքեն հաշվում է կոպեկները։"
+  - character: Sqe
+    start_time: "00:00:38"
+    end_time: "00:00։39"
+    text: "Էրկու հարուր"
+  - character: Grish
+    start_time: "00:00:39"
+    end_time: "00:00։48"
+    text: "Ո՞նց էրկու հարուր։ Բոժե մոյ։ Դու չգիտե՞ս, որ լյուբոյ իրան հարգող արաղը իրեք հարյուր դրամ արժի։ Բա էն հարուր
+          դրամը ի՞նչ ենք անելու։"
+  - character: Sqe
+    start_time: "00:00:48"
+    end_time: "00:00։49"
+    text: "Եսիմ։"
+  - character: Hayko
+    start_time: "00:00:49"
+    end_time: "00:00։56"
+    text: "Ո՞նց էրկու հարուր, արա՛։ Բա էրեկվա հարուր դրամը, որ եկեղեցուց գողացել ենք, ու՞ր ա, արա՛։"
+  - character: Sqe
+    start_time: "00:00:56"
+    end_time: "00:00։58"
+    text: "Էդ հարուրն էլ հետը՝ էրկու հարուր։"
+  - character: Hayko
+    start_time: "00:00:58"
+    end_time: "00:01։03"
+    text: "Չհասկցա արա, ուրեմն էդ եքա Արմենի կամազը հարուր դրամով ե՞ս լվացել։"
+  - character: Sqe
+    start_time: "00:01:04"
+    end_time: "00:01։06"
+    text: "Հա բա կրիզիս ա, չէ՞։"
+  - character: Grish
+    start_time: "00:01:07"
+    end_time: "00:01։23"
+    text: "Ճիշտ ա ասում, ապե, կրիզիս ա։ Էրեկ Ամերիկայի էն Օբաման էլ հելավ, կայնավ ու ասեց՝ էս կրիզիսը խբելու ա էն
+          ամենախոցելի խավերին՝ մեզի ապե՝ էս իրեքիս, ու պուտանկեքին ապե։"
+  - character: Hayko
+    start_time: "00:01:24"
+    end_time: "00:01։31"
+    text: "Գը, Գրիշ, վատանում եմ, մի բան արա էդ հարուր դրամը ճը, ճարի խմենք, էլի։"
+  - character: Grish
+    start_time: "00:01:31"
+    end_time: "00:01։39"
+    text: "Հանգստացի, ախպերս, հեսա մի բան կմտածեմ։ Բոժե մոյ, ահա թե ինչ ա անում մարդու հետ մի օր չխմելը։"
+  - character: Grish
+    start_time: "00:01:46"
+    end_time: "00:02։04"
+    text: "Ապե՜, ապե՜, ցավդ տանեմ, մի հատ գայիր էլի։ Խոսքի մենք էլ կարանք գանք, պռոստը իրեք հոգով ենք, քո կողմից մի քիչ
+          գորոզություն կլինի էլի չգաս, ապե, ցավդ տանեմ։"
+  - character: Passerby
+    start_time: "00:02:18"
+    end_time: "00:02։16"
+    text: "Լսում եմ Ձեզ։"
+  - character: Grish
+    start_time: "00:02:20"
+    end_time: "00:02։25"
+    text: "Ապե, ցավդ տանեմ, ո՞նց ես։"
+  - character: Passerby
+    start_time: "00:02:25"
+    end_time: "00:02։27"
+    text: Շնորհակալություն, լավ եմ։"
+  - character: Grish
+    start_time: "00:02:28"
+    end_time: "00:02։46"
+    text: "Ապե, ցավդ տանեմ, ոչ խմող ենք, ոչ ծխող ենք, պռոստո ընգերներով սենց մի հատ ուզում ենք բարի գործ անենք, մի հատ
+          ծերանոց կառուցենք, բայց հարուր դրամ չի հերիքում, հմի կարաս հարուր դրամով մեզի պաձեռշկա անես, ընգեր, ցավդ տանեմ։"
+  - character: Passerby
+    start_time: "00:02:50"
+    end_time: "00:02։52"
+    text: "Տղեք, ճիշտն ասած փող չունեմ։"
+  - character: Hayko
+    start_time: "00:02:52"
+    end_time: "00:02։56"
+    text: "Արա՛, հմի հարուր դրամ չե՞ս տալի, խմենք արա՛։"
+  - character: Grish
+    start_time: "00:02:57"
+    end_time: "00:03։00"
+    text: "Ծերանոցի կենացը էլի, ցավդ տանեմ։"
+  - character: Passerby
+    start_time: "00:03:00"
+    end_time: "00:03։03"
+    text: "Տղեք, որ ունենայի կտայի, իրոք փող չունեմ։"
+  - character: Grish
+    start_time: "00:03:07"
+    end_time: "00:03։19"
+    text: "Ապե՛, լսի քեզ ինչ եմ ասում, եթե հենց հմի չհանիր էդ հարուր դրամը տվիր, կպիսկեմ, կպոռթեմ, կփռենք ստե կչորանաս,
+          ցավդ, տանեմ, հանի տու՛ր էդ հարուր դրամը։"
+  - character: Passerby
+    start_time: "00:03:19"
+    end_time: "00:03։21"
+    text: "Որ սպանեք էլ, փող չունեմ"
+  - character: Hayko
+    start_time: "00:03:21"
+    end_time: "00:03։24։"
+    text: "Արա՛, դու ի՞նչ ես աշխտում որ"
+  - character: Passerby
+    start_time: "00:03:24"
+    end_time: "00:03։26"
+    text: "Թատրոնում, դերասան"
+  - character: Grish
+    start_time: "00:03:33"
+    end_time: "00:03։37"
+    text: "Արա, Սքե, հանի սրան հարուր դրամ տուր, թող էթա։"
+characters:
+    - character: Grish
+      actor: Mko
+    - character: Sqe
+      actor: "[Unkown]"
+    - character: Hayko
+      actor: Hayko
+    - character: Passerby
+      actor: "[Unknown]"

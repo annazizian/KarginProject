@@ -1,0 +1,110 @@
+name: "Ջինտոնիկ"
+url: "https://www.youtube.com/watch?v=Xs-oDmqzIWw"
+script:
+  - character: Hayko
+    start_time: "00:00:19"
+    end_time: "00:00։56"
+    text: "Գա՞գ, ապեր էդ քո ասած տեղն եմ եկել, ապեր։ Ստե սաղ մոլախոտ ա, նորմալ բան չկա։ Ո՞նց մի քիչ լավ ման արի, ասում
+          եմ՝ սաղ դաշտը ծխել եմ, սաղ տուֆտա։ Հա ապեր, դե եկեք հետևիցս։ Չեմ կարա ես գամ, կորել - օլորվել եմ։ Որդե ե՞մ
+          ապեր, չոլում ախպեր կանգնած եմ։ Քանի՞ հատ չոլ կա, մի հատ չոլ կա, էդ չոլի մեջտեղը կանգնած եմ, հա ապեր սպասում եմ։
+          Հլը մի րոպե, Գագ։"
+  - character: Jin
+    start_time: "00:01:25"
+    end_time: "00։01։29"
+    text: "Լսում եմ և հնազանդվում եմ քեզ, իմ տիրակալ։"
+  - character: Hayko
+    start_time: "00:01:30"
+    end_time: "00։01։32"
+    text: "Ի՞նչն ես լսում։"
+  - character: Jin
+    start_time: "00:01:32"
+    end_time: "00։01։35"
+    text: "Լսում եմ քո երեք ցանկությունները"
+  - character: Hayko
+    start_time: "00:01:36"
+    end_time: "00։01։39"
+    text: "Էս ես ինչ ցանկանամ դու կատարում ես, հա՞։"
+  - character: Jin
+    start_time: "00:01:39"
+    end_time: "00։01։40"
+    text: "Հը՜մ։"
+  - character: Hayko
+    start_time: "00:01:41"
+    end_time: "00։01։44"
+    text: "Աչքիս քեզ ոսկե ձկնիկի տեղն ես դրել։ Հը հա հա հա"
+  - character: Jin
+    start_time: "00:01:45"
+    end_time: "00։01։56"
+    text: "Հա, մենք նույն վարչությունից ենք, ուղղակի ինքը ոսկերչական բաժնից ա։ Լսում եմ քո երեք ցանկություններից
+          առաջիինը, օ իմ տիրակալ։"
+  - character: Hayko
+    start_time: "00:02:00"
+    end_time: "00։02։04"
+    text: "Մյատ մարիխուաննա լիներ, երկուսով ծխեինք, հը՞։"
+  - character: Jin
+    start_time: "00:02:05"
+    end_time: "00։02։08"
+    text: "Լսում և հնազանդվում եմ, տեր իմ։"
+  - character: Jin
+    start_time: "00:02:27"
+    end_time: "00։02։48"
+    text: "Տիրակալ ջան, ես ջին եմ, ես մեծ հնարավորությունների տեր տղա եմ։ Տարիներ առաջ մի հատ մարդ եկավ ու խնդրեց ինձնից
+          Լաս Վեգասի կեսը, ես տվեցի նրան․ կարծեմ հայ էր։ Դու լավ մտածի քո երկրորդ ցանկությունը ու ասա։"
+  - character: Hayko
+    start_time: "00:02:56"
+    end_time: "00։03։00"
+    text: "Մի հատ էլ, որ քաշելիք ըլներ, երկուսով կքաշեինք հավեսով։"
+  - character: Jin
+    start_time: "00:03։01"
+    end_time: "00։03։05"
+    text: "Լսու՛մ և հնազանդվու՛մ եմ, օ՛, ի՛մ տիրակալ։"
+  - character: Jin
+    start_time: "00:03:16"
+    end_time: "00։03։45"
+    text: "Ապեր, դու աչքիս էնքան ես քաշել, որ ուղեղդ չորացել ա։ Մարդիկ ինձնից միլիոններ են ուզում, լավ աղջիկներ են
+          ուզում, ես տալիս եմ։ Արա, դաժե բանտաժ են ուզում ինձնից, ես տալիս եմ։ Ես քձիպ ջին չեմ, տղա ջան։ Դրա համար երրորդ
+          ցանկությունն ասելուց առաջ, մի քիչ աբառոտ տուր ու նոր ասա, այ օ, իմ տիրակալ։"
+  - character: Hayko
+    start_time: "00:03:53"
+    end_time: "00։03։57"
+    text: "Ջինտոնիկ ջան, բեր մյատ էլ ֆռանք։"
+  - character: Jin
+    start_time: "00:03:57"
+    end_time: "00։04։00"
+    text: "Լսու՛մ եմ ու հնազանդվու՛մ եմ։"
+  - character: Hayko
+    start_time: "00:04:17"
+    end_time: "00։04։23"
+    text: "Ջի՞ն, էս ու՞ր ես։ Ջինտոնի՜կ։ Հը, թռա՞ր արա։"
+  - character: Jin
+    start_time: "00:04:30"
+    end_time: "00։04։40"
+    text: "Մի րոպե կայնի հլը։ Լա՜վ, չորրորդ ցանկությունդ ասա։"
+background:
+  - url: "https://www.youtube.com/watch?v=qf3Hcuf4xqM"
+    type: song
+    start_time: "00:00:00"
+    end_time: "00:01:15"
+  - url: "https://www.youtube.com/watch?v=qf3Hcuf4xqM"
+    type: song
+    start_time: "00։02։09"
+    end_time: "00։02։27"
+  - url: "https://www.youtube.com/watch?v=qf3Hcuf4xqM"
+    type: song
+    start_time: "00։03։06"
+    end_time: "00։03։15"
+  - url: "https://www.youtube.com/watch?v=qf3Hcuf4xqM"
+    type: song
+    start_time: "00։04։00"
+    end_time: "00։04։30"
+  - url: "https://www.youtube.com/watch?v=qf3Hcuf4xqM"
+    type: song
+    start_time: "00։04։40"
+    end_time: "00։04։46"
+characters:
+    - character: Hayko
+      actor: Hayko
+    - character: Jin
+      aka:
+          - Jintonik
+      actor: Mko

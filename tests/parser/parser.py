@@ -1,1 +1,1 @@
-IGNORE_SYMBOLS = "՜,՞՛;․՝"
+IGNORE_SYMBOLS = "՜,՞՛;․՝-~."

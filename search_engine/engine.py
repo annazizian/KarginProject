@@ -22,4 +22,8 @@ class SearchEngine(metaclass=ProcessorMeta):
         for processor in cls.processors:
             text = processor(text)
             phrase = processor(phrase)
+        return cls._check_line(phrase, text)
+
+    @classmethod
+    def _check_line(cls, phrase, text):
         return phrase in text

@@ -16,7 +16,7 @@ class SearchEngine(metaclass=ProcessorMeta):
                 if not self.check_line(phrase, line['text']):
                     continue
                 yield datum['url'], line
-    
+
     @classmethod
     def check_line(cls, phrase, text):
         for processor in cls.processors:

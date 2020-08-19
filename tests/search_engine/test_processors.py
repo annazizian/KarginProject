@@ -24,6 +24,7 @@ class TestCaseInsensitiveEngine(TestCase):
             "phrase",
             "This phra~se won't match."))
 
+
 class TestIgnoreSymbolsEngine(TestCase):
     @patch("search_engine.processors.IGNORE_SYMBOLS", set("~."))
     def test_check_line(self):
@@ -37,7 +38,7 @@ class TestIgnoreSymbolsEngine(TestCase):
             "phrase",
             "But p.h.r.a.s.e~s containing ignored symbols will."))
 
-        
+
 class TestBaseEngine(TestCase):
     @patch("search_engine.processors.IGNORE_SYMBOLS", set("~."))
     def test_check_line(self):

@@ -10,9 +10,9 @@ def ignore_symbols(s):
 
 
 class ProcessorMeta(type):
-    def __new__(metacls, name, bases, cls_dict):
+    def __new__(cls, name, bases, cls_dict):
         extra_processors = cls_dict.pop('processors', set())
         for base in bases:
             extra_processors |= getattr(base, 'processors', set())
         cls_dict['processors'] = extra_processors
-        return super().__new__(metacls, name, bases, cls_dict)
+        return super().__new__(cls, name, bases, cls_dict)

@@ -1,4 +1,9 @@
-class SearchEngine:
+from .processors import ProcessorMeta
+
+
+class SearchEngine(metaclass=ProcessorMeta):
+    processors = set()
+
     def __init__(self):
         self.data = []
 
@@ -12,5 +17,9 @@ class SearchEngine:
                     continue
                 yield datum['url'], line
     
-    def check_line(self, phrase, text):
+    @classmethod
+    def check_line(cls, phrase, text):
+        for processor in cls.processors:
+            text = processor(text)
+            phrase = processor(phrase)
         return phrase in text

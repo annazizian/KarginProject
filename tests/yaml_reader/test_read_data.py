@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from yaml_parser.reader import read_yaml
+from yaml_parser import read_yaml
 
 
 class TestYamlReader(TestCase):

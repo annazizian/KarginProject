@@ -36,27 +36,29 @@ class Automaton:
 
 
 def longest_common_substring(s, t):
-    """Get the length of the longest common substring of given strings
+    """Get the longest common substring of given strings
     :param s: first iterable(string or list of strings)
     :param t: second iterable
-    :return: length of the longest common substring
     """
     a = Automaton(s)
-    cur = a.t0
+    current_node = a.t0
     current_length = 0
     max_length = 0
+    max_end_ind = 0
 
-    for i in t:
-        while i not in cur.trans:
-            cur = cur.link
-            if cur is None:
+    for ind, c in enumerate(t):
+        while c not in current_node.trans:
+            current_node = current_node.link
+            if current_node is None:
                 break
-            current_length = cur.length
-        if cur is None:
+            current_length = current_node.length
+        if current_node is None:
             current_length = 0
-            cur = a.t0
+            current_node = a.t0
             continue
-        cur = cur.trans[i]
+        current_node = current_node.trans[c]
         current_length += 1
-        max_length = max(current_length, max_length)
-    return max_length
+        if max_length < current_length:
+            max_length = current_length
+            max_end_ind = ind
+    return t[max_end_ind - max_length + 1: max_end_ind + 1]

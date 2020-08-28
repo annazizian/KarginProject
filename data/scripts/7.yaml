@@ -135,11 +135,11 @@ script:
     end_time: "00:03։37"
     text: "Արա, Սքե, հանի սրան հարուր դրամ տուր, թող էթա։"
 characters:
-    - character: Grish
-      actor: Mko
-    - character: Sqe
-      actor: "[Unkown]"
-    - character: Hayko
-      actor: Hayko
-    - character: Passerby
-      actor: "[Unknown]"
+  - character: Grish
+    actor: Mko
+  - character: Sqe
+    actor: "[Unkown]"
+  - character: Hayko
+    actor: Hayko
+  - character: Passerby
+    actor: "[Unknown]"

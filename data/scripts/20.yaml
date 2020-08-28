@@ -1,0 +1,46 @@
+name: "Մահացու սունկ"
+url: "https://www.youtube.com/watch?v=yR5uv3YX0yk"
+script:
+  - character: Karenchik
+    start_time: "00:00:32"
+    end_time: "00:00։41"
+    text: "Քեռի՜, քեռի հիշում ե՞ս անցած շաբաթ ինձ ու Գայանչիկին մի հատ սունկ էիր ցույց տվել, ասեցիր, որ թունավոր ա, "
+  - character: Qeri
+    start_time: "00:00:42"
+    end_time: "00:00։43"
+    text: "Հիշում եմ։"
+  - character: Karenchik
+    start_time: "00:00:43"
+    end_time: "00:00։44"
+    text: "Գայանչիկը հենց նոր դրանից կերավ։"
+  - character: Qeri
+    start_time: "00:00:51"
+    end_time: "00:01։04"
+    text: "Կարենչիկ ջան, տեսնում ես քեռին աշխատում է, ինչի՞ եք խանգարում, գնացեք ձեր համար խաղացեք։ Բլի՛ն, մոռացա։ Հա,
+          հա՜։"
+  - character: Karenchik
+    start_time: "00:01:26"
+    end_time: "00:01։36"
+    text: "Քեռի՜, հենց նոր ես ու Գայանչիկը գետի մոտ խաղում էինք, գետը Գայանչիկին տարավ, հիմա խեղդվում ա, ի՞նչ անենք։"
+  - character:
+    start_time: "00:01:36"
+    end_time: "00:01։44"
+    text: "Կարենչիկ ջան, մի անհանգստացի, մեկա Գայանչիկը էդ սնկից հետո էլ ապրելու շանս չուներ։"
+background:
+  - url: "youtube.com/watch?v=IMKTDt3cUrI"
+    type: song
+    start_time: "00:00:00"
+    end_time: "00:00:32"
+  - url: "youtube.com/watch?v=IMKTDt3cUrI"
+    type: song
+    start_time: "00։01։04"
+    end_time: "00։01։26"
+  - url: "youtube.com/watch?v=IMKTDt3cUrI"
+    type: song
+    start_time: "00։01։44"
+    end_time: "00։01։51"
+characters:
+  - character: Qeri
+    actor: Mko
+  - character: Karenchik
+    actor: "[Unkown]"

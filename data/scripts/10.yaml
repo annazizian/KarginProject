@@ -33,7 +33,7 @@ background:
     start_time: "00։01։16"
     end_time: "00։02։46"
 characters:
-    - character: Writer
-      actor: Hayko
-    - character: Death
-      actor: Mko
+  - character: Writer
+    actor: Hayko
+  - character: Death
+    actor: Mko

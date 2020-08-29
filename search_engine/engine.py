@@ -2,7 +2,7 @@ from .processors import ProcessorMeta
 
 
 class SearchEngine(metaclass=ProcessorMeta):
-    processors = set()
+    processors = []
 
     def __init__(self):
         self.data = []
@@ -11,6 +11,7 @@ class SearchEngine(metaclass=ProcessorMeta):
         self.data.append(datum)
 
     def search(self, phrase):
+        phrase = self.process(phrase, is_phrase=True)
         for datum in self.data:
             for line in datum['script']:
                 if not self.check_line(phrase, line['text']):
@@ -18,11 +19,14 @@ class SearchEngine(metaclass=ProcessorMeta):
                 yield datum['url'], line
 
     @classmethod
-    def check_line(cls, phrase, text):
+    def process(cls, text, *, is_phrase=None):
         for processor in cls.processors:
-            text = processor(text)
-            phrase = processor(phrase)
-        return cls._check_line(phrase, text)
+            text = processor(text, is_phrase=is_phrase)
+        return text
+
+    @classmethod
+    def check_line(cls, phrase, text):
+        return cls._check_line(phrase, cls.process(text, is_phrase=False))
 
     @classmethod
     def _check_line(cls, phrase, text):

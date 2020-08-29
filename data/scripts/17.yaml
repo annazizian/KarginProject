@@ -1,5 +1,5 @@
 name: "Ֆիլարեթ"
-url: "https://www.youtube.com/watch?v=LUAZ6UwEsaU&t=75s"
+url: "https://www.youtube.com/watch?v=LUAZ6UwEsaU&t"
 script:
   - character: Dasakhos
     start_time: "00:00:00"

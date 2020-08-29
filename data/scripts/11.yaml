@@ -1,0 +1,147 @@
+name: "Ազատասեր վարդ"
+url: "https://www.youtube.com/watch?v=ZsRTSc7-guA&t="
+script:
+  - character: Gegham
+    start_time: "00:00:07"
+    end_time: "00:00։08"
+    text: "Բարիգուն ձեզ։"
+  - character: Vacharoghuhi
+    start_time: "00:00:08"
+    end_time: "00:00։09"
+    text: "Բարև ձեզ, բարև ձեզ։"
+  - character: Gegham
+    start_time: "00:00:09"
+    end_time: "00:00։12"
+    text: "Էդ խմորեղենի օջախ, որ ասում են, ճիշտ ե՞մ եկել։"
+  - character: Vacharoghuhi
+    start_time: "00:00:12"
+    end_time: "00:00։13"
+    text: "Այո, շատ ճիշտ եք եկել։"
+  - character: Gegham
+    start_time: "00:00:13"
+    end_time: "00:00։16"
+    text: "Ը՜։ Խմորեղեն ունե՞ք։"
+  - character: Vacharoghuhi
+    start_time: "00:00:16"
+    end_time: "00:00։20"
+    text: "Ամբողջը խմորեղեն է։ Կոնկրետ ի՞նչ եք ցանկանում։"
+  - character: Gegham
+    start_time: "00:00:20"
+    end_time: "00:00։23"
+    text: "Քուրիկ ջան, խմորեղեն ունե՞ք, որ մեջը կրեմ կա։"
+  - character: Vacharoghuhi
+    start_time: "00:00:23"
+    end_time: "00:00։25"
+    text: "Դուք երևի էկլերի մասին եք խոսում։"
+  - character: Gegham
+    start_time: "00:00:25"
+    end_time: "00:00։26"
+    text: "Էդի ո՞րն ա։"
+  - character: Vacharoghuhi
+    start_time: "00:00:26"
+    end_time: "00:00։26"
+    text: "Այ սա։"
+  - character: Gegham
+    start_time: "00:00:28"
+    end_time: "00:00։36"
+    text: "Ազիզ բալա, էսի փոքր ա ցավդ տանեմ։ Սրա մեծը կա՞, որ վրեն սիրուն նենց զարդարենք, վրեն բաներ գրենք։"
+  - character: Vacharoghuhi
+    start_time: "00:00:36"
+    end_time: "00:00։39"
+    text: "Իսկ ի՞նչ միջոցառում ա։ Շատ ե՞ք, քիչ ե՞ք, քանի՞ հոգով եք։"
+  - character: Gegham
+    start_time: "00:00:39"
+    end_time: "00:00։40"
+    text: "Մենք մերոնցով ենք։"
+  - character: Vacharoghuhi
+    start_time: "00:00:40"
+    end_time: "00:00։41"
+    text: "Ծնունդ ա՞, կնունք ա՞։"
+  - character: Gegham
+    start_time: "00:00:42"
+    end_time: "00:00։44"
+    text: "Սյուրպրիզ ա։ Էդի կարևոր չի։"
+  - character: Vacharoghuhi
+    start_time: "00:00:45"
+    end_time: "00:00։47"
+    text: "Այդ դեպքում ես ձեզ խորհուրդ կտամ տորթ։"
+  - character: Gegham
+    start_time: "00:00:48"
+    end_time: "00:00։54"
+    text: "Արա ճիշտ ա, տորթ։ Ա, ոնց մտքով չէր անցել։ Փողը հմի տա՞մ։"
+  - character: Vacharoghuhi
+    start_time: "00:00:55"
+    end_time: "00:00։56"
+    text: "Ասում եմ՝ թխեք, թող գա։"
+  - character: Gegham
+    start_time: "00:00:56"
+    end_time: "00:00։58"
+    text: "Հա՜։"
+  - character: Vacharoghuhi
+    start_time: "00:00:58"
+    end_time: "00:01։01"
+    text: "Ա՜խ։ Իսկ ի՞նչ գույնի եք ուզում, որ տորթը լինի։"
+  - character: Gegham
+    start_time: "00:01:02"
+    end_time: "00:00։26"
+    text: "Տորթը թող լինի սպիտակ, նենց սպիտակախառն էլի, որ վրեն սենց շակալադնիախառն գրվի՝ սիրելի Գեղամին։ Ու սենց ներքևը
+          տարիքը էլի Գեղամի՝ 42։"
+  - character: Vacharoghuhi
+    start_time: "00:01:16"
+    end_time: "00:01։17"
+    text: "Քառասուներկու՞։"
+  - character: Gegham
+    start_time: "00:01:17"
+    end_time: "00:01։29"
+    text: "Հա։ Մեջտեղից, թող սենց տորթի գետինը ճաքի ու սենց դուրս գա մի հատ վարդ։ Էդ վարդը տղայա ու ինքը սիրում ա
+          ազատություն։"
+  - character: Vacharoghuhi
+    start_time: "00:01:29"
+    end_time: "00:01։30"
+    text: "Ազատասեր վարդ։"
+  - character: Gegham
+    start_time: "00:01:30"
+    end_time: "00:01։43"
+    text: "Ըհը։ Ու սենց էդ տորթի կողքերից սենց կանաչախառը, նենց տրթախառը, սենց կռուգոմախառը, ընդհանուրաիրարախառը, սենց
+          մի հատ վենոկաառը։"
+  - character: Vacharoghuhi
+    start_time: "00:01:43"
+    end_time: "00:01։44"
+    text: "Կրյուշոն։"
+  - character: Gegham
+    start_time: "00:01:44"
+    end_time: "00:01։46"
+    text: "Հա, պրիշոլներից էլի։"
+  - character: Vacharoghuhi
+    start_time: "00:01:47"
+    end_time: "00:01։52"
+    text: "Եղավ, պատվերն ընդունեցինք։ Զբաղվեք, պատվերը 3 ժամից կլինի։"
+  - character: Gegham
+    start_time: "00:01:52"
+    end_time: "00:01։54"
+    text: "Լավա, ես ստեղ կսպասեմ։"
+  - character: Vacharoghuhi
+    start_time: "00:01:59"
+    end_time: "00:02։00"
+    text: "Ձեր պատվերը։ Ամեն ինչ նորմա՞լ ա։"
+  - character: Gegham
+    start_time: "00:02:08"
+    end_time: "00:02։09"
+    text: "Սաղ լավա։"
+  - character: Vacharoghuhi
+    start_time: "00:02:09"
+    end_time: "00:02։11"
+    text: "Ո՞ր տուփի մեջ դնեմ՝ կլոր թե՞ քառակուսի։"
+  - character: Gegham
+    start_time: "00:02:13"
+    end_time: "00:02։18"
+    text: "Էդ կառոբկա մառոբկա պետք չի։ Մեկա ստե եմ ուտելու։"
+  - character: Vacharoghuhi
+    start_time: "00:02:20"
+    end_time: "00:02։21"
+    text: "Հոհոհո։"
+characters:
+  - character: Gegham
+    actor: Mko
+  - character: Vacharoghuhi
+    actor: Hayko

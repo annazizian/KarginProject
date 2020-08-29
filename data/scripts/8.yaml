@@ -102,9 +102,9 @@ background:
     start_time: "00։04։40"
     end_time: "00։04։46"
 characters:
-    - character: Hayko
-      actor: Hayko
-    - character: Jin
-      aka:
-          - Jintonik
-      actor: Mko
+  - character: Hayko
+    actor: Hayko
+  - character: Jin
+    aka:
+        - Jintonik
+    actor: Mko

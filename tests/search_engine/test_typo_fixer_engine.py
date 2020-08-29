@@ -21,7 +21,7 @@ class TypoFixerEngineTester(TestCase):
     @patch("search_engine.processors.IGNORE_SYMBOLS", set(","))
     def test_add_data(self):
         engine = TypoFixerEngine()
-        engine.feed_data({"script": ["one, two"]})
+        engine.feed_data({"script": [{"text": "one, two"}]})
         self.assertSetEqual(engine.typo_fixer_processor.words(),
                             {"one", "two"})
 

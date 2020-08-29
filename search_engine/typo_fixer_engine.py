@@ -15,8 +15,8 @@ class TypoFixerEngine(BaseEngine):
         super().feed_data(data)
 
         for line in data['script']:
-            line = self.process(line, is_phrase=False)
-            for word in line.split():
+            text = self.process(line["text"], is_phrase=False)
+            for word in text.split():
                 self.typo_fixer_processor.add_word(word)
 
     @classmethod

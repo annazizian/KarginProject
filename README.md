@@ -21,3 +21,17 @@ Run the following command to run tests
 ```
 python -m pytest tests
 ```
+
+## Usage
+
+```
+from search_engine.typo_fixer_engine import TypoFixerEngine
+from yaml_parser.reader import read_yaml
+
+engine = TypoFixerEngine()
+
+for path in yaml_paths:
+    engine.feed_data(read_yaml(path))
+
+engine.search(phrase)
+```

@@ -19,7 +19,7 @@ Activate the virtual environment each time you open a new terminal.
 Run the following command to run tests
 
 ```
-python -m pytest tests
+PYTHONPATH=src python -m pytest tests
 ```
 
 ## Usage

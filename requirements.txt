@@ -1,3 +1,5 @@
 pyyaml==5.3.1
 pytest==5.4.3
 trie-autocomplete==0.1.2.post3
+pytube3==9.6.4
+moviepy==1.0.3

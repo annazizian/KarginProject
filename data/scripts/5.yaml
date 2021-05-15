@@ -3,39 +3,39 @@ url: "https://www.youtube.com/watch?v=Rb7gaPBURwU"
 script:
   - character: Pozavor
     start_time: "00:00:14"
-    end_time: "00:00։15"
+    end_time: "00:00:15"
     text: "Ալյո։"
   - character: Zangogh
     start_time: "00:00:15"
     end_time: "00:00:16"
     text: "Բարև, պոզավոր։"
   - character: Pozavor
-    start_time: "00։00։17"
-    end_time: "00։00։18"
+    start_time: "00:00:17"
+    end_time: "00:00:18"
     text: "Ում ե՞ք ուզում։"
   - character: Zangogh
     start_time: "00:00:18"
     end_time: "00:00:22"
     text: "Արա այ, պիծյակ քեզ ենք ուզում։ Ասում եմ՝ բարև, այ պոզավոր։"
   - character: Pozavor
-    start_time: "00։00։23"
-    end_time: "00։00։23"
+    start_time: "00:00:23"
+    end_time: "00:00:23"
     text: "Ով ա՞։"
   - character: Zangogh
     start_time: "00:00:23"
     end_time: "00:00:29"
     text: "Արա էդի կարևոր չի, կարևորը կնիկդ էնքան ա վրեդ ֆռացել, գլխիդ պոզեր են աճել, այ պոզավոր։"
   - character: Pozavor
-    start_time: "00։00։35"
-    end_time: "00։00։37"
+    start_time: "00:00:35"
+    end_time: "00:00:37"
     text: "Մի հատ էդ ծիլիֆոնը անջատի։"
   - character: Kin
     start_time: "00:00:37"
     end_time: "00:00:37"
     text: "Ես քեզ հեսա կզանգեմ։"
   - character: Pozavor
-    start_time: "00։00։39"
-    end_time: "00։00։55"
+    start_time: "00:00:39"
+    end_time: "00:00:55"
     text: "Էդ ուրեմն պակա ես գործի տեղը պախած եմ անում, որ էս տան հոսանքի փողը, ուտելիքը, քո շորերը առնեմ, դու զձես
           ռազվլեկայեշսյա, հա՞։ Անունն էլ դրել ես պրակտիկա, չգիտեմ ուր ես, գնում ես, պռապադայեշ, դու մի ասա գնում ես սրա
           նրա հետ ֆռֆռում ես, իմ անունն էլ էս մայլայում գցում ես։"
@@ -44,25 +44,25 @@ script:
     end_time: "00:00:57"
     text: "Լսի ո՞վ ա քեզ տենց ապուշություն ասե։"
   - character: Pozavor
-    start_time: "00։00։58"
-    end_time: "00։01։01"
+    start_time: "00:00:58"
+    end_time: "00:01:01"
     text: "Ապուշություն չի՛։ Ո՞վ պտի ասի, ընկերներս են ասել։"
   - character: Kin
     start_time: "00:01:01"
-    end_time: "00:01։03"
+    end_time: "00:01:03"
     text: "Տո քեզ որտեղի՞ց ընգեր։"
   - character: Pozavor
-    start_time: "00։01։03"
-    end_time: "00։01։14"
+    start_time: "00:01:03"
+    end_time: "00:01:14"
     text: "Չկա, պետք էլ չի։ Լիքը բարի մարդ կա, որոնք զանգում ես ձեռ են առ, է՜, տեղյակ են պահում։ Ուրեմն, սրանից հետո
           բուձետ տակ, մնալու ես տանը ու ոչ մի տեղ դուրս չես գալու։ Նի բլագադառնայա։"
   - character: Pozavor
-    start_time: "00։01։34"
-    end_time: "00։01։35"
+    start_time: "00:01:34"
+    end_time: "00:01:35"
     text: "Ալյո՛։"
   - character: Zangogh
-    start_time: "00։01։35"
-    end_time: "00։01։40"
+    start_time: "00:01:35"
+    end_time: "00:01:40"
     text: "Արա՞, բացի պոզավորից, համ էլ գործ տղով ես, հը՞ն այ պոզավոր։"
 characters:
   - character: Pozavor

@@ -7,15 +7,15 @@ script:
       text: "Երևան, Ազգային ժողով"
     - character: Arshak
       start_time: "00:00:04.80"
-      end_time: "00:00:07։45"
+      end_time: "00:00:07.45"
       text: "Ձեր ջահելներներն են ԲՈՒՀը վաճառում։"
     - character: Arshak
       start_time: "00:00:07.80"
-      end_time: "00:00:010։40"
+      end_time: "00:00:01.40"
       text: "Երևի գիտեք ինչ ․․․"
     - character: Deputy0
       start_time: "00:00:10.50"
-      end_time: "00:00:14:00"
+      end_time: "00:00:14.00"
       text: "Արշակ ջան, ասում եմ ինչքան կարելի ա խոսել, խոսել"
     - character: "[Noise]"
       start_time: "00:00:15.00"
@@ -44,11 +44,11 @@ background:
       end_time: "00:01:09.00"
 characters:
     - character: Deputy0
-      actor: "[Unkown]"
+      actor: "[Unknown]"
     - character: Arshak
       aka:
           - Arshak Sadoyan
-      actor: "[Unkown]"
+      actor: "[Unknown]"
     - character: Deputy1
       actor: Hayko
     - character: Deputy2

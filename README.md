@@ -35,3 +35,14 @@ for path in yaml_paths:
 
 engine.search(phrase)
 ```
+
+## Running the flask app
+
+```
+export FLASK_APP=flask/flask_app.py
+flask run
+```
+
+Then enter "http://localhost:5000/TBpD6dgtVXM" from browser.
+
+On each pause the "end time" field will be updated automatically. On each submit the part of the YAML will be generated and appended to editable text field. Hope this eases your work :)

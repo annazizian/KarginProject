@@ -1,3 +1,4 @@
 pyyaml==5.4
 pytest==5.4.3
 trie-autocomplete==0.1.2.post3
+flask==2.0.1

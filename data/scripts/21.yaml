@@ -1,0 +1,80 @@
+name: "Վանուշ Խանամիրյան"
+url: "https://www.youtube.com/watch?v=u1EtmLaMt5Y"
+script:
+    - character: Tati
+      start_time: "00:00:00"
+      end_time: "00:00:21"
+      text: 'չեմ իմանում , երկու շաբաթ ա չունենք, ընդե իրանց մոտ զանգում եմ անընդհատ հեռախոսը զբաղված ա, հաստատ կողք են դրել։ Էրեգ էլ էլ չդիմացա, ասի զանգեմ էն "Արմենիա"֊ի թեժ գիծ ասեմ գան տիրություն անեն․ մի հատ աղջիկ վերցրեց, վայ թեմ Էռնան էր, ասեց էղավ տատի ջան վաղը առավոտ նկարահանողներին կուղարկեմ, կնկարեն։'
+    - character: Tati
+      start_time: "00:00:24"
+      end_time: "00:00:30"
+      text: 'Մարգո, ոնց որ երկրորդ գիծ ա, է ասում եմ երկրորդ գիծ ա, թեժ գիծն ա աչքիս, հեսա ես քեզ կզանգեմ։'
+    - character: Tati
+      start_time: "00:00:41"
+      end_time: "00:00:44"
+      text: "Էկեք, էկեք տեսեք ստե երկու շաբաթ ա ինչ ա կատարվում։"
+    - character: Tati
+      start_time: "00:00:49"
+      end_time: "00:00:50"
+      text: 'Էս դու "Արմենիա"֊ից չե՞ս։'
+    - character: supervisor
+      start_time: "00:00:50"
+      end_time: "00:00:51"
+      text: "ըհ, ոչ։"
+    - character: supervisor
+      start_time: "00:00:52"
+      end_time: "00:00:54"
+      text: 'Բա էս ձեռինդ կամեռա չի՞։'
+    - character: supervisor
+      start_time: "00:00:55"
+      end_time: "00:00:56"
+      text: 'Ամենևին էլ ոչ։'
+    - character: Tati
+      start_time: "00:00:57"
+      end_time: "00:00:59"
+      text: 'Բա դու ո՞վ ես, տղա ջան։'
+    - character: supervisor
+      start_time: "00:00:59"
+      end_time: "00:01:00"
+      text: "Հեսա կասեմ։"
+    - character: Tati
+      start_time: "00:01:09"
+      end_time: "00:01:10"
+      text: "Էս ի՞նչ ես անում, ա՜յ փառչակ։"
+    - character: supervisor
+      start_time: "00:01:10"
+      end_time: "00:01:31"
+      text: 'Մի նյարդայինացեք, ես ձեզ ամեն ինչ կբացատրեմ։ Ես հանդիսանում եմ "Progress and cleaning developers LLC" ֆիռմայի supervisor։ Մենք գնում ենք տներով և գովազդում ենք մեր ապրանքը։ Ճիշտ է, ինչպես դուք նկատեցիք իմ կեցվածքից, ես ժամանակին եղելեմ պարուսույց, երևի կհիշեք, Ֆղանսուա դե Պաղեի համույթը "Դոն Քիշոթ" բալետից "աղե աղվի աղե աղվի ժետե պերղո աղե աղվի"։'
+    - character: Tati
+      start_time: "00:01:31"
+      end_time: "00:01:35"
+      text: 'Չեմ ճանաչում, ես մենակ Վանուշ Խանամիրյանին եմ ընդունում։'
+    - character: supervisor
+      start_time: "00:01:37"
+      end_time: "00:01:51"
+      text: 'Ինչևէ, չվիճենք․ ես ինչ էի ուզում ասել․․․ ժամանակին ես պարուսույց էի, այսօր ես ներկայացնում եմ "Progress and cleaning" ֆիրման և գիտեք ինչ, դրա համար ընդհանրապես չեմ փոշմանում, որովհետև այսօր մենք ներկայացնում ենք աշխարհի լավագույն փոշեկուլները։'
+    - character: Tati
+      start_time: "00:01:52"
+      end_time: "00:01:52"
+      text: 'Հետո՞։'
+    - character: supervisor
+      start_time: "00:01:54"
+      end_time: "00:02:06"
+      text: 'Իսկ այժմ ուշադրություն, ես ընդամենը մեկ նախադասությամբ կներկայացնեմ այս փոշեկուլը։ Ես պատրաստ եմ ճաշի գդալով ուտել այն աղբը, որը կմնա մեր փոշեկուլով մաքրելուց հետո։'
+    - character: supervisor
+      start_time: "00:02:10"
+      end_time: "00:02:10"
+      text: 'Տիկին ջան, ո՞ւր եք գնում։'
+    - character: Tati
+      start_time: "00:02:11"
+      end_time: "00:02:12"
+      text: 'Գդալի հետևից։'
+    - character: Tati
+      start_time: "00:02:13"
+      end_time: "00:02:15"
+      text: 'Երկու շաբաթ ա լույս չունենք։'
+characters:
+    - character: Tati
+      actor: Mko
+    - character: supervisor
+      actor: Hayko

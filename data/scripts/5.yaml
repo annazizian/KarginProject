@@ -64,6 +64,15 @@ script:
     start_time: "00:01:35"
     end_time: "00:01:40"
     text: "Արա՞, բացի պոզավորից, համ էլ գործ տղով ես, հը՞ն այ պոզավոր։"
+background:
+  - url: "https://www.youtube.com/watch?v=K9SAZAKBULY"
+    start_time: "00:00:00"
+    end_time: "00:00:15"
+    type: song
+  - url: "https://www.youtube.com/watch?v=K9SAZAKBULY"
+    start_time: "00:01:20"
+    end_time: "00:01:26"
+    type: song
 characters:
   - character: Pozavor
     actor: Hayko

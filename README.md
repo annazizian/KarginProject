@@ -35,3 +35,18 @@ for path in yaml_paths:
 
 engine.search(phrase)
 ```
+
+### Troubleshooting
+
+#### Fix Pytube
+Change in pytube/parser.py
+
+```
+    func_regex = re.compile(r"function\([^)]+\)")
+```
+
+to
+
+```
+    func_regex = re.compile(r"function\([^)]?\)")
+```

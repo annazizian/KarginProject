@@ -12,7 +12,7 @@
       <label for="character"> Character: </label><br>
       <input type="text" id="character" name="character"><br>
       <button onclick="addText()">Submit</button><br>
-    <p contenteditable="true" id="yaml"></p>
+    <pre contenteditable="true" id="yaml"></pre>
     <script>
       var yaml = document.getElementById("yaml");
       var stime = document.getElementById("stime");
@@ -21,11 +21,49 @@
       etime.value = "00:00:00";
       var content = document.getElementById("content");
       var character = document.getElementById("character");
-      function addText(){
-          yaml.innerText += `\n  - character: ${character.value}\n    start_time: "${stime.value}"\n    end_time: "${etime.value}"\n    text: "${content.value}"`;
-          stime.value = etime.value;
-          content.value = "";
-      }
+      addText = (function() {
+        data = {"name": "{{ video_id }}",
+                "url": "https://www.youtube.com/watch?v={{ video_id }}",
+                "script": [],
+                "characters": []};
+        function toYaml(obj, tab=0, indent=2) {
+          if (typeof obj != "object")
+            return "".padStart(tab, " ") + obj.toString() + "\n";
+          var yaml = "";
+          if (Array.isArray(obj)){
+            let arr = Array.from(obj);
+            for (let i = 0; i < arr.length; i++){
+              yaml += "".padStart(tab, " ") + "- \n" + toYaml(arr[i], tab + indent, indent);
+            }
+          }
+          else {
+            for (var key in obj){
+              yaml += "".padStart(tab, " ") + key + ":\n" + toYaml(obj[key], tab + indent, indent);
+            }
+          }
+          return yaml;
+        }
+        function _addCharacter(){
+          for (var i = 0; i < data.characters.length; i++){
+            if (data.characters[i].character == character.value){
+              return;
+            }
+          }
+          data.characters.push({"character": character.value});
+        }
+        function _addText(){
+            data.script.push({"start_time": stime.value,
+                              "end_time": etime.value,
+                              "text": content.value,
+                              "character": character.value});
+            _addCharacter()
+            yaml.innerText = toYaml(data);
+            stime.value = etime.value;
+            content.value = "";
+            character.value = "";
+        }
+        return _addText;
+      })();
     </script>
     <script>
       // 2. This code loads the IFrame Player API code asynchronously.
@@ -55,7 +93,7 @@
 
       // 4. The API will call this function when the video player is ready.
       function onPlayerReady(event) {
-        console.log("ready", event);
+        // console.log("ready", event);
         event.target.playVideo();
       }
 
@@ -73,7 +111,7 @@
             if (t % 60 < 10) s = "0" + s;
             return `${pad(h.toString())}:${pad(m.toString())}:${s}`
         }
-        console.log("state change", event);
+        // console.log("state change", event);
         if (event.data == YT.PlayerState.PAUSED) {
             let t = player.getCurrentTime();
             let etime = document.getElementById("etime");

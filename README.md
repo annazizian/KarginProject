@@ -46,3 +46,18 @@ flask run
 Then enter "http://localhost:5000/TBpD6dgtVXM" from browser.
 
 On each pause the "end time" field will be updated automatically. On each submit the part of the YAML will be generated and appended to editable text field. Hope this eases your work :)
+
+## Troubleshooting
+
+### Fix Pytube
+Change in pytube/parser.py
+
+```
+    func_regex = re.compile(r"function\([^)]+\)")
+```
+
+to
+
+```
+    func_regex = re.compile(r"function\([^)]?\)")
+```

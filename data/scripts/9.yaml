@@ -3,115 +3,115 @@ url: "https://www.youtube.com/watch?v=l6kHHRGPdZ4"
 script:
   - character: Jin
     start_time: "00:00:47"
-    end_time: "00։00։53"
+    end_time: "00:00:53"
     text: "Լսում և հնազանդվում եմ քեզ, օ, իյա։"
   - character: Hayko
     start_time: "00:00:52"
-    end_time: "00։00։53"
+    end_time: "00:00:53"
     text: "Հը՜։"
   - character: Jin
     start_time: "00:00:54"
-    end_time: "00։00։55"
+    end_time: "00:00:55"
     text: "Ապեր ջան, դու ե՞ս։"
   - character: Hayko
     start_time: "00:00:55"
-    end_time: "00։01։07"
+    end_time: "00:01:07"
     text: "Հա բա ո՞վ ա, այ ախպեր ջան, այ ջինտոնիկ ջան։ Ախպեր, էս մի տարի ա քեզ եմ ման գալիս, հազիվ քթա։ Լսի քո մասին էս
           մի տարվա մեջ ինչ բոմբեր եմ մտածել։ Էն ջինտոնիկը հիշու՞մ ես։"
   - character: Jin
     start_time: "00:01:07"
-    end_time: "00։01։08"
+    end_time: "00:01:08"
     text: "Հիշում եմ։"
   - character: Hayko
     start_time: "00:01:08"
-    end_time: "00։01։14"
+    end_time: "00:01:14"
     text: "Էդի մոռցի, էտի թուլա, հիմա լսի թազա բոցերը։ Դու գիտե՞ս՝ որ ջիներից ես։"
   - character: Jin
     start_time: "00:01:14"
-    end_time: "00։01։15"
+    end_time: "00:01:15"
     text: "Ո՞ր։"
   - character: Hayko
     start_time: "00:01:15"
-    end_time: "00։01։25"
+    end_time: "00:01:25"
     text: "Էն որ մենակ ջինս ա հագնում, ջինոզավրերի հետա տալի առնում, ջինգլբելս ա լսում ու որ մրցման ա մասնակցում, գիտե՞ս
           որ տեղնա միշտ բռնում։"
   - character: Jin
     start_time: "00:01:25"
-    end_time: "00։01։26"
+    end_time: "00:01:26"
     text: "Ո՞ր։"
   - character: Hayko
     start_time: "00:01:26"
-    end_time: "00։01։35"
+    end_time: "00:01:35"
     text: "Վերջի՛ն։ Հա-հա-հա։ Ջոգում ե՞ս մի տարվա մեջ ինչ աճել եմ աճել։ Ախպերս էն իրեք ցանկության մոմենտը աշխատում ա չէ՞
           հլը։"
   - character: Jin
     start_time: "00:01:36"
-    end_time: "00։01։41"
+    end_time: "00:01:41"
     text: "Լսում եմ քո երեք ցանկությունները, օ, իմ տիրակալ։"
   - character: Hayko
-    start_time: "00:01։41"
-    end_time: "00։01։49"
+    start_time: "00:01:41"
+    end_time: "00:01:49"
     text: "Չէ, ախպեր ջան, էդ քյոլով էս անգամ ինձ չես քյոլի։ Լցած եկել եմ։ Հիմա տրեզվի ցանկությում ունեմ, ասեմ։"
   - character: Jin
     start_time: "00:01:49"
-    end_time: "00։01։54"
+    end_time: "00:01:54"
     text: "Լսում եմ քո առաջին ցանկությունը, օ՜, իմ տիրակալ։"
   - character: Hayko
     start_time: "00:01:54"
-    end_time: "00։02։02"
+    end_time: "00:02:02"
     text: "Առաջին ցանկություն, ա՜, չոտկի ասում եմ արա։ Նայի առաջինը՝ մի չամադան փող։"
   - character: Jin
     start_time: "00:02:03"
-    end_time: "00։02։04"
+    end_time: "00:02:04"
     text: "Լսու՜մ եմ։"
   - character: Hayko
     start_time: "00:02:09"
-    end_time: "00։02։15"
+    end_time: "00:02:15"
     text: "Ա՜յ, արա։ Աշխտում ա։ Ախպեր դավերիայի մոմենտ ա, չէ՞, չեմ հաշվում։"
   - character: Jin
     start_time: "00:02:15"
-    end_time: "00։02։20"
+    end_time: "00:02:20"
     text: "Լսում եմ քո երկրորդ ցանկությունը, օ, իմ տիրակալ։"
   - character: Hayko
     start_time: "00:02:20"
-    end_time: "00։02։27"
+    end_time: "00:02:27"
     text: "Ա՜յ, ուզում եմ ախպեր մյատ սև միցուբիշի լանջեռո։"
   - character: Jin
     start_time: "00:02:28"
-    end_time: "00։02։29"
+    end_time: "00:02:29"
     text: "Լսում եմ։"
   - character: Hayko
     start_time: "00:02:36"
-    end_time: "00։02։41"
+    end_time: "00:02:41"
     text: "Ա՜յ, մեջը բենզին կա՞։"
   - character: Jin
     start_time: "00:02:41"
-    end_time: "00։02։45"
+    end_time: "00:02:45"
     text: "Պոլնի բակ, իմ տիրակալ։"
   - character: Hayko
     start_time: "00:02:45"
-    end_time: "00։02։"
+    end_time: "00:02:"
     text: "Ա՜յ, արա, դզում ա, իու՜, ա՜։"
   - character: Jin
     start_time: "00:02:52"
-    end_time: "00։02։55"
+    end_time: "00:02:55"
     text: "Լսում եմ քո երրորդ ցանկությունը, իմ տիրակալ։"
   - character: Hayko
     start_time: "00:02:56"
-    end_time: "00։03։15"
+    end_time: "00:03:15"
     text: "Ա՜, հու՜։ Փողը կա, ա՜յ, մաշնեն կա, գիդե՞ս ինչ ա ուզվում, ուզում եմ սենց սուր զգացողություններ էլի, որ խոսքի
           սենց մազերս բիզ-բիզ կանգնի, սիրտս թրթռա, սենց չոքերս թուլնա էլի, ա՜յ զգացողություններ եմ ուզում էլի։"
   - character: Jin
     start_time: "00:03:16"
-    end_time: "00։03։17"
+    end_time: "00:03:17"
     text: "Լսում եմ։"
   - character: Hayko
     start_time: "00:03:27"
-    end_time: "00։03։32"
+    end_time: "00:03:32"
     text: "Ա՜յ, բա սուր զգացմունքները ու՞ր ա, սու՜րը։"
   - character: Jin
     start_time: "00:02:15"
-    end_time: "00։02։20"
+    end_time: "00:02:20"
     text: "Լսում եմ քո երկրորդ ցանկությունը, օ, իմ տիրակալ։"
 background:
   - url: "https://www.youtube.com/watch?v=qf3Hcuf4xqM"
@@ -120,24 +120,24 @@ background:
     end_time: "00:00:41"
   - url: "https://www.youtube.com/watch?v=qf3Hcuf4xqM"
     type: song
-    start_time: "00։02։08"
-    end_time: "00։02։27"
+    start_time: "00:02:08"
+    end_time: "00:02:27"
   - url: "https://www.youtube.com/watch?v=qf3Hcuf4xqM"
     type: song
-    start_time: "00։02։36"
-    end_time: "00։02։50"
+    start_time: "00:02:36"
+    end_time: "00:02:50"
   - url: "https://www.youtube.com/watch?v=qf3Hcuf4xqM"
     type: song
-    start_time: "00։02։59"
-    end_time: "00։03։16"
+    start_time: "00:02:59"
+    end_time: "00:03:16"
   - url: "https://www.youtube.com/watch?v=qf3Hcuf4xqM"
     type: song
-    start_time: "00։03։26"
-    end_time: "00։03։32"
+    start_time: "00:03:26"
+    end_time: "00:03:32"
   - url: "https://www.youtube.com/watch?v=qf3Hcuf4xqM"
     type: song
-    start_time: "00։03։40"
-    end_time: "00։03։44"
+    start_time: "00:03:40"
+    end_time: "00:03:44"
 characters:
   - character: Hayko
     actor: Hayko

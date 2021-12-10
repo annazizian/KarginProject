@@ -12,6 +12,7 @@ class SearchEngine(metaclass=ProcessorMeta):
 
     def search(self, phrase):
         phrase = self.process(phrase, is_phrase=True)
+        print(phrase)
         for datum in self.data:
             for line in datum['script']:
                 if not self.check_line(phrase, line['text']):

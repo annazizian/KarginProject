@@ -3,7 +3,7 @@ from .processors import ProcessorMeta  # noqa
 from .typo_fixer_processor import TypoFixerProcessor  # noqa
 
 
-IGNORE_SYMBOLS = set("՜,՞՛;․՝-~.")
+IGNORE_SYMBOLS = set("՜,՞՛;․՝-~.։,")
 
 
 def case_insensitive(s, *, is_phrase=None):

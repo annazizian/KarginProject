@@ -130,4 +130,5 @@ dmypy.json
 
 ;;directories to ignore
 .idea/
+.vscode/
 tmp/

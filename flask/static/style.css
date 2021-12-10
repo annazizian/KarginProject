@@ -1,0 +1,86 @@
+* {
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    background: #F2F2F2;
+}
+
+main {
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 1400px;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.result-block {
+    overflow-y: auto;
+    height: 700px;
+    border: 3px solid rgba(125,117,117,0.5);
+    border-radius: 16px;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+main>div, main>pre {
+    width: calc(50% - 50px);
+}
+
+form {
+    width: 100%;
+}
+.player {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.input-groups {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-groups .form-group {
+    width: calc(50% - 30px);
+}
+
+.form-group label{
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.form-group input, .form-group textarea {
+    border-radius: 16px;
+    padding: 9px 15px;
+    border: 1px solid rgba(125,117,117,0.5);
+    outline: none;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-group textarea {
+    max-width: 100%;
+}
+
+button {
+    background-color: #3EB595;
+    padding: 20px 15px;
+    border: none;
+    border-radius: 16px;
+    color: white;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    transition: all .3s ease-in;
+}
+
+button:hover {
+    background-color: rgba(71,163,153,0.9);
+}

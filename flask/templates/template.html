@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
+ <main>
+   <div class="main-content">
+     <div id="player" class="player"> </div>
+     <div class="input-groups">
+       <div class="form-group">
+         <label for="stime"> Start time:</label>
+         <input type="text" id="stime" name="stime">
+       </div>
+       <div class="form-group">
+         <label for="etime"> End time:</label>
+         <input type="text" id="etime" name="etime">
+       </div>
+     </div>
+     <div class="form-group">
+       <label for="character"> Character: </label>
+       <input type="text" id="character" name="character">
+     </div>
+     <div class="form-group">
+       <label for="content"> Content: </label>
+       <textarea type="text" id="content" name="content" cols="50" rows="7"></textarea>
+     </div>
+     <div class="form-group">
+       <button onclick="addText()">Submit</button>
+     </div>
+   </div>
+     <pre class="result-block" contenteditable="true" id="yaml"></pre>
+ </main>
+<script>
+    var yaml = document.getElementById("yaml");
+    var stime = document.getElementById("stime");
+    stime.value = "00:00:00";
+    var etime = document.getElementById("etime");
+    etime.value = "00:00:00";
+    var content = document.getElementById("content");
+    var character = document.getElementById("character");
+    addText = (function () {
+        data = {
+            "name": "{{ video_id }}",
+            "url": "https://www.youtube.com/watch?v={{ video_id }}",
+            "script": [],
+            "characters": []
+        };
+
+        function toYaml(obj, tab = 0, indent = 2) {
+            if (typeof obj != "object")
+                return "".padStart(tab, " ") + obj.toString() + "\n";
+            var yaml = "";
+            if (Array.isArray(obj)) {
+                let arr = Array.from(obj);
+                for (let i = 0; i < arr.length; i++) {
+                    yaml += "".padStart(tab, " ") + "- \n" + toYaml(arr[i], tab + indent, indent);
+                }
+            } else {
+                for (var key in obj) {
+                    yaml += "".padStart(tab, " ") + key + ":\n" + toYaml(obj[key], tab + indent, indent);
+                }
+            }
+            return yaml;
+        }
+
+        function _addCharacter() {
+            for (var i = 0; i < data.characters.length; i++) {
+                if (data.characters[i].character == character.value) {
+                    return;
+                }
+            }
+            data.characters.push({"character": character.value});
+        }
+
+        function _addText() {
+            data.script.push({
+                "start_time": stime.value,
+                "end_time": etime.value,
+                "text": content.value,
+                "character": character.value
+            });
+            _addCharacter()
+            yaml.innerText = toYaml(data);
+            stime.value = etime.value;
+            content.value = "";
+            character.value = "";
+        }
+
+        return _addText;
+    })();
+</script>
+<script>
+    // 2. This code loads the IFrame Player API code asynchronously.
+    var tag = document.createElement('script');
+
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+    // 3. This function creates an <iframe> (and YouTube player)
+    //    after the API code downloads.
+    var player;
+
+    function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+            height: '390',
+            width: '100%',
+            videoId: "{{ video_id }}",
+            playerVars: {
+                'playsinline': 1
+            },
+            events: {
+                'onReady': onPlayerReady,
+                'onStateChange': onPlayerStateChange
+            }
+        });
+    }
+
+    // 4. The API will call this function when the video player is ready.
+    function onPlayerReady(event) {
+        // console.log("ready", event);
+        event.target.playVideo();
+    }
+
+    // 5. The API calls this function when the player's state changes.
+    //    The function indicates that when playing a video (state=1),
+    //    the player should play for six seconds and then stop.
+    function onPlayerStateChange(event) {
+        function pad(s) {
+            return s.padStart(2, "0");
+        }
+
+        function tm(t) {
+            let s = (t % 60).toFixed(2);
+            let m = Number.parseInt(t / 60) % 60;
+            let h = Number.parseInt(t / 3600);
+            if (t % 60 < 10) s = "0" + s;
+            return `${pad(h.toString())}:${pad(m.toString())}:${s}`
+        }
+
+        // console.log("state change", event);
+        if (event.data == YT.PlayerState.PAUSED) {
+            let t = player.getCurrentTime();
+            let etime = document.getElementById("etime");
+            etime.value = tm(t);
+        }
+        if (event.data == 0) {
+            let t = player.getDuration();
+            let etime = document.getElementById("etime");
+            etime.value = tm(t);
+        }
+    }
+</script>
+</body>
+</html>
+

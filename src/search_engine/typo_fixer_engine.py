@@ -25,4 +25,5 @@ class TypoFixerEngine(BaseEngine):
 
     @classmethod
     def _check_line(cls, phrases, text):
-        return any(re.search('.*'.join(phrase), text) is not None for phrase in phrases)
+        return any(re.search('.*'.join(phrase), text) is not None
+                   for phrase in phrases)

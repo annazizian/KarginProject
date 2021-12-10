@@ -3,80 +3,80 @@ url: "https://www.youtube.com/watch?v=rh2-lZwbQ9s"
 script:
   - character: Khachatryan
     start_time: "00:00:02"
-    end_time: "00:00։10"
+    end_time: "00:00:10"
     text: "Այ մարդ, էս հիվանդանոցի կյանքն էլ կյանք չի։ Առավոտ մեզի անալիզ ենք հանձնում, իրիկունը՝ արյուն։ Իրիկունը՝
           արյուն, առավոտը՝ մեզ։"
   - character: Hakobyan
     start_time: "00:00:11"
-    end_time: "00:00։15"
+    end_time: "00:00:15"
     text: "Յանի որ առողջ գայինք, ստե էսքան անալիզ հանձնեինք, կարողա էսքան վատանայինք, էլի։"
   - character: Khachatryan
     start_time: "00:00:16"
-    end_time: "00:00։17"
+    end_time: "00:00:17"
     text: "Լավ, էսօր ինչի՞ վրա ենք խաղում։"
   - character: Hakobyan
     start_time: "00:00:18"
-    end_time: "00:00։24"
+    end_time: "00:00:24"
     text: "Ախպեր, արի գիտե՞ս ինչի վրա խաղանք։ Կրվողը համ իրա տեղն ա անալիզ հանձնում, համ էլ կրողի տեղը։"
   - character: Khachatryan
     start_time: "00:00:25"
-    end_time: "00:00։29"
+    end_time: "00:00:29"
     text: "Հա համաձայն եմ, բայց էսօրվա անտիբիոտիկներն էլ հետը։"
   - character: Hakobyan
     start_time: "00:00:29"
-    end_time: "00:00։37"
+    end_time: "00:00:37"
     text: "Էլավ ախպեր, պռոստը երեկ անտիբիոտիկի վրա խաղացել ենք էլի, էդքան անտիբիոտիկ ի՞նչ եմ անում։ Խոսքի արի էսօր
           հակասնկային խաղանք ապե՝ նիստածին։"
   - character: Khachatryan
     start_time: "00:00:37"
-    end_time: "00:00։38"
+    end_time: "00:00:38"
     text: "Լավ արի։"
   - character: Hakobyan
     start_time: "00:00:38"
-    end_time: "00:00։38"
+    end_time: "00:00:38"
     text: "Գրի"
   - character: Khachatryan
     start_time: "00:00:39"
-    end_time: "00:00։42"
+    end_time: "00:00:42"
     text: "Մի րոպե, էս բժշկի ձենը չի՞։"
   - character: Bjishk
     start_time: "00:00:43"
-    end_time: "00:01։09"
+    end_time: "00:01:09"
     text: "Տեղափոխում եք պալատ, ամենակարևորը․․․ Էս ի՞նչ եք անում։ Էս ձեր համար հիվանդանոց ա թե՞ կազինո։ Բառդակ ուստռոիլի՛։
           Հավաքեք շուտ էդ կարտերը։ Խաչատրյա՛ն, ըտենց ես անում, որ ամբողջ դեղերդ կրվում ես։ Բարեկամներդ էլ գալիս են հետներս
           կռիվ են անում, թե ինչի ա բուժումդ էդքան թանկ նստում վրեքը։ Ո՞նց ես քեզ զգում։"
   - character: Khachatryan
     start_time: "00:01:10"
-    end_time: "00:01։10"
+    end_time: "00:01:10"
     text: "Արդեն լավ եմ։"
   - character: Bjishk
     start_time: "00:01:10"
-    end_time: "00:01։48"
+    end_time: "00:01:48"
     text: "Մի հատ Խաչատրյանի անալիզների ընթացքը տվեք։ Խաչատրյան, շատ լավ ա։ Ը՜, վատ չի, վատ չի։ Լավ չի։ Վատա։ Շատ վատա։
           Ահավորա։ Լավ։ Հակոբյան, դու ո՞նց ես քեզ զգում։"
   - character: Hakobyan
     start_time: "00:01:49"
-    end_time: "00:01։51"
+    end_time: "00:01:51"
     text: "Էս երկու օրը մի քիչ լավ չեմ էլի, բժիշկ ջան։"
   - character: Bjishk
     start_time: "00:01:54"
-    end_time: "00:01։57"
+    end_time: "00:01:57"
     text: "Բա բժիշկը ի՞նչ ա ասում։ Է՜, դեղերդ խմում ե՞ս։"
   - character: Hakobyan
     start_time: "00:01:58"
-    end_time: "00:01։59"
+    end_time: "00:01:59"
     text: "Հա բա ո՞նց չեմ խմում։"
   - character: Bjishk
     start_time: "00:01:59"
-    end_time: "00:02։07"
+    end_time: "00:02:07"
     text: "Հա լավ ես անում, շարունակի։ Բա էս ձեր պալատի երրորդ հիվանդն ու՞ր ա։"
   - character: Hakobyan
     start_time: "00:02:09"
-    end_time: "00:02։13"
+    end_time: "00:02:13"
     text: "Բժիշկ ջան, ցերեկը մի քիչ իրան լավ չէր զգում, գնաց տուն։"
   - character: Bjishk
     start_time: "00:02:14"
-    end_time: "00:02։16"
+    end_time: "00:02:16"
     text: "Ո՞նց գնաց տուն։ Արա հո դուք հիվա՞նդ չեք։"
 characters:
   - character: Bjishk

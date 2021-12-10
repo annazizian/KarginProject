@@ -3,29 +3,29 @@ url: "https://www.youtube.com/watch?v=md3Fg6xgJfo"
 script:
   - character: Aper
     start_time: "00:00:34"
-    end_time: "00:00։37"
+    end_time: "00:00:37"
     text: "Ողջույն, եղբայր։ Դուք այստեղ ե՞ք բնակվում։"
   - character: Yeghbayr
     start_time: "00:00:38"
-    end_time: "00:00։40"
+    end_time: "00:00:40"
     text: "Ողջույն, ապեր, այո։ "
   - character: Aper
     start_time: "00:00:41"
-    end_time: "00:00։54"
+    end_time: "00:00:54"
     text: "Ես իմ գռուպայից ետ եմ ընկել, նրանք մոտավորապես այն սարի գլխին պետք է լինեն, եթե չհասցնեմ, ավտոբուսն առանց ինձ
           կգնա, մոտավորապես ինչքա՞ն ժամանակ կտևի ստեղից այնտեղ։"
   - character: Yeghbayr
     start_time: "00:00:55"
-    end_time: "00:01։00"
+    end_time: "00:01:00"
     text: "Ապեր, ասեմ, ստեղից ընդեղ, գնաց, մեջը դրած, կես ժամ։"
   - character: Aper
     start_time: "00:01:00"
-    end_time: "00:01։11"
+    end_time: "00:01:11"
     text: "Ի՞նչ կես ժամ, եղբայր։ Ես մաքսիմում 10 րոպեից պետք է այնտեղ լինեմ, այլապես խումբն առանց ինձ կհեռանա։ Եղբայր,
           հնարավոր չի՞ մի ինչ որ ձև մտածեք, որ 10 րոպեից այնտեղ լինեմ։ Եղբա՜յր։"
   - character: Yeghbayr
     start_time: "00:01:13"
-    end_time: "00:01։19"
+    end_time: "00:01:19"
     text: "Հնարավոր ա։ Բիսկվիթ, ֆասթ։ Բարի ճանապարհ, ապեր։"
 background:
   - url: "https://www.youtube.com/watch?v=c-f2b8j4M0g"

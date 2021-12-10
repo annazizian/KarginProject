@@ -1,0 +1,11 @@
+Change in pytube/parser.py
+
+```
+    func_regex = re.compile(r"function\([^)]+\)")
+```
+
+to
+
+```
+    func_regex = re.compile(r"function\([^)]?\)")
+```
